@@ -7,14 +7,8 @@
 }
 
 body {
-  background-image: linear-gradient(
-    to right,
-    white 0%,
-    white 50%,
-    #1720f5 50%,
-    #1720f5 100%
-  );
-  max-height: 100vh;
+  background: #1720f5;
+
   overflow-x: hidden;
 }
 
@@ -30,14 +24,14 @@ h1 {
 h3 {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
-  color: #1720f5;
+  color: white;
   text-transform: uppercase;
   font-size: 30px;
 }
 
 h5 {
   font-family: "Bebas Neue", sans-serif;
-  color: #1720f5;
+  color: white;
   text-decoration: line-through;
   margin-top: 20px;
   margin-left: 20px;
@@ -52,7 +46,7 @@ html {
 p {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  color: #1720f5;
+  color: white;
   font-size: 20px;
 }
 
@@ -69,6 +63,8 @@ main button {
   text-transform: uppercase;
   font-size: 13px;
   margin-top: 40px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
 }
 
 main button:hover {
@@ -80,15 +76,18 @@ main button:hover {
 }
 
 main h2 {
+  font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   color: #1720f5;
   margin-top: 40px;
   padding-bottom: 5px;
+  font-weight: 700;
 }
 
 main small {
   color: #3d155f;
   font-size: 14px;
+  font-family: "Roboto", sans-serif;
 }
 
 section {
@@ -106,7 +105,7 @@ section {
 
 .col-4 {
   margin-top: 220px;
-  margin-left: 12px;
+  margin-left: 70px;
 }
 
 .grid {
