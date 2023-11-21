@@ -1,12 +1,20 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-image: linear-gradient(
     to right,
     white 0%,
-    white 46%,
-    #1720f5 46%,
+    white 50%,
+    #1720f5 50%,
     #1720f5 100%
   );
-  min-height: 100vh;
+  max-height: 100vh;
   overflow-x: hidden;
 }
 
@@ -35,6 +43,12 @@ h5 {
   margin-left: 20px;
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+  overflow-x: hidden;
+}
+
 p {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -42,9 +56,70 @@ p {
   font-size: 24px;
 }
 
+main {
+  background: white;
+  margin-top: 116px;
+}
+
+main button {
+  padding: 5px 60px;
+  background: white;
+  border: 1px solid #1720f5;
+  color: #1720f5;
+  text-transform: uppercase;
+  font-size: 13px;
+  margin-top: 60px;
+}
+
+main h2 {
+  text-transform: uppercase;
+  color: #1720f5;
+}
+
+main small {
+  color: #1720f5;
+  font-size: 14px;
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  scroll-snap-align: start;
+}
+
+#s2 {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 100px;
+}
+
 .col-4 {
   margin-top: 220px;
   margin-left: 12px;
+}
+
+.grid {
+  display: grid;
+  margin: 0 auto;
+}
+
+.grid-2-columns {
+  grid-template-columns: 1fr 1fr;
+}
+
+.left-side {
+  border: 1px solid #1720f5;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 100px;
+}
+
+.right-side {
+  border: 1px solid #1720f5;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 100px;
 }
 
 .title {
