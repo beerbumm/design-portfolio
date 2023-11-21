@@ -53,7 +53,7 @@ p {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   color: #1720f5;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 main {
@@ -62,22 +62,32 @@ main {
 }
 
 main button {
-  padding: 5px 60px;
+  padding: 10px 70px;
   background: white;
   border: 1px solid #1720f5;
   color: #1720f5;
   text-transform: uppercase;
   font-size: 13px;
-  margin-top: 60px;
+  margin-top: 40px;
+}
+
+main button:hover {
+  box-shadow: inset 400px 0 0 0 #1720f5;
+  -webkit-transition: ease-out 0.5s;
+  -moz-transition: ease-out 0.5s;
+  transition: ease-out 0.5s;
+  color: white;
 }
 
 main h2 {
   text-transform: uppercase;
   color: #1720f5;
+  margin-top: 40px;
+  padding-bottom: 5px;
 }
 
 main small {
-  color: #1720f5;
+  color: #3d155f;
   font-size: 14px;
 }
 
@@ -111,14 +121,14 @@ section {
 .left-side {
   border: 1px solid #1720f5;
   max-width: 100%;
-  margin: 0 auto;
+  max-height: 500px;
   padding: 100px;
 }
 
 .right-side {
   border: 1px solid #1720f5;
   max-width: 100%;
-  margin: 0 auto;
+  max-height: 500px;
   padding: 100px;
 }
 
