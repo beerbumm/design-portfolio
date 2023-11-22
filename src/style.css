@@ -6,6 +6,15 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+  color: #1720f5;
+}
+
+a:hover {
+  color: white;
+}
+
 body {
   background: #1720f5;
   max-height: 100vh;

@@ -1,3 +1,63 @@
-h2 {
+a {
+  text-decoration: none;
   color: #1720f5;
+  font-size: small;
+}
+
+h3 {
+  color: #1720f5;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+h4 {
+  color: #474747;
+  font-size: 22px;
+}
+
+h5 {
+  font-family: "Bebas Neue", sans-serif;
+  color: #1720f5;
+  text-decoration: line-through;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+nav {
+  margin-top: 20px;
+}
+
+header h3 {
+  margin-top: 40px;
+}
+
+header p {
+  text-align: center;
+  color: #1720f5;
+}
+
+.container {
+  margin-top: 80px;
+  margin-left: 115px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 0.31fr);
+  grid-auto-rows: auto;
+  grid-gap: none;
+}
+
+.card {
+  border: 0.5px solid #1720f5;
+  border-radius: 2px;
+  padding: 0.5rem;
+  margin-bottom: 30px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.card:hover {
+  box-shadow: 5px 6px 6px 2px #e9ecef;
+  transform: scale(1.1);
 }
