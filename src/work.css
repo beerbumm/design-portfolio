@@ -66,3 +66,9 @@ header p {
   margin-bottom: 0;
   margin-top: 5px;
 }
+
+@media (max-width: 969px) {
+  .grid-3-columns {
+    grid-template-columns: 1fr;
+  }
+}
