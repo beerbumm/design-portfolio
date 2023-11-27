@@ -21,6 +21,11 @@ body {
   overflow-x: hidden;
 }
 
+footer {
+  text-align: center;
+  margin-top: -20px;
+}
+
 h1 {
   -webkit-text-stroke: 2.5px white;
   color: #1720f5;
@@ -51,6 +56,10 @@ html {
   scroll-behavior: smooth;
   scroll-snap-type: y mandatory;
   overflow-x: hidden;
+}
+
+i {
+  padding-left: 10px;
 }
 
 p {
