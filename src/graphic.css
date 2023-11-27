@@ -1,3 +1,26 @@
+h3 {
+  color: #1720f5;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+h5 {
+  font-family: "Bebas Neue", sans-serif;
+  color: #1720f5;
+  text-decoration: line-through;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+p {
+  text-align: center;
+  color: #1720f5;
+}
+
+nav {
+  margin-top: 20px;
+}
+
 #grid-container {
   margin-top: 50px;
 }
